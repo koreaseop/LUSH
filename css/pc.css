@@ -16,6 +16,7 @@
 
   #main-header h1 {
     padding-left: 30px;
+    padding-top: 10px;
   }
   
   #main-header .container {
@@ -53,7 +54,6 @@
   }
 
   /* main-visual */
-  /* main-visual */
 #main-visual {
     width: 100%;
     height: 600px;
@@ -72,3 +72,276 @@
     width: 100%;
     height: 600px;
 }
+
+/* main-product */
+#main-product {
+  width: 100%;
+  height: 500px;
+  top: 120px;
+  position: relative;
+  margin-top: 30px;
+}
+
+#main-product h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: gray;
+  display: flex;
+  justify-content: center;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 250px;
+} 
+
+.best {
+  width: 300px;
+  height: 300px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.best a {
+  transition: all 0.5s;
+}
+
+.best a:hover {
+  transform: scale(1.2);
+}
+
+.best a img {
+  width: 250px;
+  height: 250px;
+  
+}
+
+.product h2 {
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.product p {
+  text-align: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* main-section1 */
+#main-section1 {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  top: 250px;
+  
+}
+
+#main-section1 .container {
+  display: flex;
+  height: 100%;
+}
+
+#main-section1 .container .img {
+  width: 50%;
+}
+
+.img img {
+  width: 100%;
+  height: 500px;
+}
+
+#main-section1 .container .info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: bisque;
+}
+
+.info h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.info p {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.info button {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  background: #fff;
+  border: 2px solid #333;
+  position: absolute;
+  bottom: 30px;
+  font-size: 20px;
+}
+
+
+
+/* main-slogan */
+#main-slogan {
+  width: 100%;
+  height: 500px;
+  top: 300px;
+  position: relative;
+}
+
+#main-slogan h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: green;
+  display: flex;
+  justify-content: center;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 250px;
+} 
+
+.slogan_img {
+  width: 300px;
+  height: 300px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slogan_img a {
+  transition: all 0.5s;
+}
+
+.slogan_img a:hover {
+  transform: scale(1.2);
+}
+
+.slogan_img a img {
+  width: 250px;
+  height: 250px;
+}
+
+.slogan h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* main-section2 */
+#main-section2 {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  top: 350px;  
+  margin-top: 100px;
+}
+
+#main-section2 .container {
+  display: flex;
+  height: 100%;
+}
+
+#main-section2 .container .img {
+  width: 50%;
+}
+
+.img img {
+  width: 100%;
+  height: 500px;
+}
+
+#main-section2 .container .info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: purple;
+}
+
+#main-section2 .info h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#main-section2 .info p {
+  font-size: 18px;
+  line-height: 2;
+  color: #fff;
+}
+
+.info button {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  background: #fff;
+  border: 2px solid #333;
+  position: absolute;
+  bottom: 30px;
+  font-size: 20px;
+}
+
+
+/* footer */
+footer {
+  width: 100%;
+  height: 200px;
+  background: #000;
+  color: #fff;
+  position: relative;
+  top: 400px;
+  margin-top: 100px;
+}
+
+footer .container {
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 10px;
+}
+.notice {
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.notice li a:hover {
+  color: yellow;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.menu li a:hover {
+  color: yellowgreen;
+}
+
+.company {
+  margin-bottom: 15px;
+}
+
+.call .time {
+  font-weight: 700;
+}
+
+

@@ -1,0 +1,74 @@
+/* layout */
+
+/* header */
+#toggle-btn {
+    display: none;
+  }
+  
+  #main-header {
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    background: #fff;
+    z-index: 10;
+  }
+
+  #main-header h1 {
+    padding-left: 30px;
+  }
+  
+  #main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  
+  #gnb ul {
+    padding-right: 80px;
+  }
+
+
+  #gnb ul li {
+    display: inline-block;
+    margin-left: 100px;
+  }
+
+  #gnb ul li a {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  #gnb ul li a:hover {
+    font-family: 700;
+    color: green;
+  }
+  
+  /* 메뉴 간격 조정(910px까지의 메뉴 간격) */
+  @media screen and (max-width: 910px) {
+    #gnb ul li {
+      margin-left: 80px;
+    }
+  }
+
+  /* main-visual */
+  /* main-visual */
+#main-visual {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 90px;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 600px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 600px;
+}
